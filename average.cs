@@ -13,7 +13,8 @@ public class Average
         string userInserts;
         
         Console.Write("Insert a mark: ");
-        userInserts = Console.ReadLine();  // we read the insert as string to check the word "end"
+        // we read the insert as string to check the word "end" 
+        userInserts = Console.ReadLine();
         
         while(userInserts != "end")
         {
